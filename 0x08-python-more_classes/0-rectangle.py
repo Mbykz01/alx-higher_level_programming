@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 class Rectangle:
-    def rectangle(self):
-        self.rectangle = rectangle
-        return rectangle
+    pass
 my_rectangle = Rectangle()
-my_rectangle.rectangle
+print(my_rectangle)
