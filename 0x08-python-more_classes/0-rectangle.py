@@ -4,3 +4,4 @@ class Rectangle:
         self.rectangle = rectangle
         return rectangle
 my_rectangle = Rectangle()
+my_rectangle.rectangle
