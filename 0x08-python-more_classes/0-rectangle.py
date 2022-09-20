@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""
+Defining an empty class Rectangle
+"""
+
+
 class Rectangle:
-    def rectangle(self):
-        self.retangle = my_rectangle
-my_rectangle = Rectangle()
-print(type(my_rectangle))
-print(my_rectangle.__dict__)
+    """Empty representation of a Rectangle"""
+    pass
