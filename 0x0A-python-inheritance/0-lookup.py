@@ -2,7 +2,8 @@
 lookup = __import__('0-lookup').lookup
 
 class MyClass1(object):
-    pass
+    def lookup(obj):
+        return list
 
 class MyClass2(object):
     my_attr1 = 3
@@ -12,4 +13,3 @@ class MyClass2(object):
 print(lookup(MyClass1))
 print(lookup(MyClass2))
 print(lookup(int))
-
